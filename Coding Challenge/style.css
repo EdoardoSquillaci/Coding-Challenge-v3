@@ -1,0 +1,81 @@
+body{
+    background-image: url(background.jpg); 
+    background-size: cover;
+}
+
+#contenitore{
+    width: 1000px;
+    height: 660px;
+    margin: auto;
+    background-color:rgba(0, 0 ,0,0.75);
+    border-radius: 10px;
+}
+
+#logo{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    padding-left: 40%;
+    padding-top: 8%;
+}
+
+#titolone {
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+#barra-pulsanti{
+background-color: rgb(0, 255, 0); 
+margin: auto;
+width: 800px;
+height: 40px;
+text-align: center;
+}
+
+div input[type=button]{
+    margin-top: 9px;
+    
+}
+
+.main{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+}
+
+
+.main input[type=checkbox],h2{
+    display: inline;
+}
+
+#charge1{
+    border: 0;
+    background-color: rgb(222, 153, 17);
+    padding-left: 200px;
+    border-radius: 50px;
+}
+
+
+.text{
+    margin-top: 30px;
+    
+}
+
+
+#charge2 {
+    border: 0;
+    background-color: rgb(55, 255, 0);
+    padding-left: 500px;
+    border-radius: 50px;  
+}
+
+
+#charge3{
+    border: 0;
+    background-color: rgb(255, 0, 0);
+    padding-left: 100px;
+    border-radius: 50px; 
+}
+
